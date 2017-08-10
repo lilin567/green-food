@@ -1,0 +1,123 @@
+/* 禁用iPhone中Safari的字号自动调整 */
+html {
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust: 100%;
+}
+/* 设置图片视频等自适应调整 */
+img {
+max-width: 100%;
+height: auto;
+width: auto; /* ie8 */
+}
+video embed, video object, video iframe {
+width: 100%;
+height: auto;
+}
+
+body{
+	background-image: url(../images/bg2.jpg);
+}
+.header{
+	width: 100%;
+	box-sizing: border-box;
+}
+.logo{
+	display: none;
+}
+.site-nav{
+	width: 100%;
+}
+.nav ul li{
+	width: 11.111111%;
+	padding:0;
+	text-align: center;
+}
+.nav ul li.firstli{
+	padding-left: 0;
+}
+.banner{
+	width: 100%;
+}
+.main{
+	width: 100%;
+}
+.main-hd{
+	box-sizing: border-box;
+	border-bottom: 0 none;
+}
+.main-hd li{
+	width: 49.5%;
+	margin-right: 0;
+	box-sizing: border-box;
+	background: none;
+	background: -webkit-linear-gradient(top,white 0%,rgb(231, 231, 231) 100%);
+	border:1px solid #ccc;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	padding: 12px;
+	height: auto;
+}
+.main-hd li:nth-child(odd){
+	margin-right: 1%;
+}
+
+.aboutus{
+	width:100%;
+}
+.main{
+	height: auto;
+	overflow: hidden;
+}
+.show{
+	box-sizing: border-box;
+	background: -webkit-linear-gradient(top,white 0%,rgb(239, 239, 239) 100%);
+	margin:0 1%;
+	margin-bottom:5px;
+	width: 98%;
+	border:1px solid #ccc;
+	border-radius: 5px;
+
+}
+.aboutus dd{
+	width: 70%;
+	font-size: 16px;
+}
+.main-bd{
+	background: none;
+}
+.products li{
+	margin-right:10%;
+}
+.products{
+	padding-left: 5%;
+}
+.show.contact{
+	font-size: 16px;
+}
+
+.subnav{
+	display: none;
+}
+.subnav-pad{
+	display: block;
+	height: 40px;
+	width: 98%;
+	margin:0 1%;
+	background: -webkit-linear-gradient(top,rgb(200, 200, 200) 0%,rgb(148, 148, 148) 100%);
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+}
+.subnav-pad a{
+	color: #fff;
+}
+.footer{
+	margin:0 1%;
+	width: 98%;
+}
+.footer-in{
+	width: 100%;
+	padding:5px;
+	padding-top:15px;
+	box-sizing: border-box;
+}
